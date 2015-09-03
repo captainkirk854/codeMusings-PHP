@@ -50,7 +50,7 @@
 		?>
 
 		<!-- Display body section with sticky form. -->
-		<form action="006paf-sticky.php" method="POST">
+		<form action="005-sticky-fields.php" method="POST">
 			<p>Name: 
 				<input type="text" name="name" value="<?php if (isset($_POST['name'])) echo $_POST['name']; ?>"> </p> <!-- the if statement makes the values "stick" -->
 			<p>Email: 
