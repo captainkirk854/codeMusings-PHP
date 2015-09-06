@@ -1,0 +1,143 @@
+{
+   "results" : [
+      {
+         "address_components" : [
+            {
+               "long_name" : "Disneyland Resort",
+               "short_name" : "Disneyland Resort",
+               "types" : [ "point_of_interest", "establishment" ]
+            },
+            {
+               "long_name" : "1313",
+               "short_name" : "1313",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "Disneyland Drive",
+               "short_name" : "Disneyland Dr",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Anaheim Resort",
+               "short_name" : "Anaheim Resort",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Anaheim",
+               "short_name" : "Anaheim",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Orange County",
+               "short_name" : "Orange County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "92802",
+               "short_name" : "92802",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Disneyland Resort, 1313 Disneyland Drive, Anaheim, CA 92802, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 33.810485,
+               "lng" : -117.918989
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 33.8118339802915,
+                  "lng" : -117.9176400197085
+               },
+               "southwest" : {
+                  "lat" : 33.8091360197085,
+                  "lng" : -117.9203379802915
+               }
+            }
+         },
+         "place_id" : "ChIJg3XXhNrX3IARUc0M9bIC_X4",
+         "types" : [ "amusement_park", "point_of_interest", "establishment" ]
+      },
+      {
+         "address_components" : [
+            {
+               "long_name" : "Disneyland",
+               "short_name" : "Disneyland",
+               "types" : [ "point_of_interest", "establishment" ]
+            },
+            {
+               "long_name" : "1313",
+               "short_name" : "1313",
+               "types" : [ "street_number" ]
+            },
+            {
+               "long_name" : "South Harbor Boulevard",
+               "short_name" : "S Harbor Blvd",
+               "types" : [ "route" ]
+            },
+            {
+               "long_name" : "Anaheim Resort",
+               "short_name" : "Anaheim Resort",
+               "types" : [ "neighborhood", "political" ]
+            },
+            {
+               "long_name" : "Anaheim",
+               "short_name" : "Anaheim",
+               "types" : [ "locality", "political" ]
+            },
+            {
+               "long_name" : "Orange County",
+               "short_name" : "Orange County",
+               "types" : [ "administrative_area_level_2", "political" ]
+            },
+            {
+               "long_name" : "California",
+               "short_name" : "CA",
+               "types" : [ "administrative_area_level_1", "political" ]
+            },
+            {
+               "long_name" : "United States",
+               "short_name" : "US",
+               "types" : [ "country", "political" ]
+            },
+            {
+               "long_name" : "92802",
+               "short_name" : "92802",
+               "types" : [ "postal_code" ]
+            }
+         ],
+         "formatted_address" : "Disneyland, 1313 South Harbor Boulevard, Anaheim, CA 92802, USA",
+         "geometry" : {
+            "location" : {
+               "lat" : 33.8116507,
+               "lng" : -117.9172607
+            },
+            "location_type" : "APPROXIMATE",
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 33.8129996802915,
+                  "lng" : -117.9159117197085
+               },
+               "southwest" : {
+                  "lat" : 33.81030171970851,
+                  "lng" : -117.9186096802915
+               }
+            }
+         },
+         "place_id" : "ChIJ84G38dDX3IARmoEOJ5YuEDQ",
+         "types" : [ "amusement_park", "point_of_interest", "establishment" ]
+      }
+   ],
+   "status" : "OK"
+}
