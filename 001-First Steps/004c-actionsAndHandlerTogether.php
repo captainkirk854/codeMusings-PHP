@@ -11,33 +11,33 @@
 			if ( $_SERVER[ 'REQUEST_METHOD' ] != 'POST' ) 
 			{
 			  # Display the form - note action has to reference this .php file
-			  echo '
-				  <form action="004c-actionsAndHandlerTogether.php" method="POST">
-					  <fieldset>
-						  <legend>Send us your comments</legend>
-						  <textarea rows="5" cols="40" name="comment"></textarea>
-					  </fieldset>
-					  <p><input type="submit" ></p>
-				  </form> 
-			  ' ;
-			}
-			else
-			{
-			  # Handle the form submission.
-			  # Empty check.
-			  if ( !empty ( $_POST['comment'] ) )
-			  {
-			    $comment = $_POST['comment'] ;   
-			    echo "Comment : $comment " ;
-			  }
-			  else
-			  { 
-			    $comment = NULL ;
-			    echo 'You must enter a comment' ;
-			   }
-			}
+	          echo '
+                  <form action="004c-actionsAndHandlerTogether.php" method="POST">
+                      <fieldset>
+                          <legend>Send us your comments</legend>
+                          <textarea rows="5" cols="40" name="comment"></textarea>
+                      </fieldset>
+                      <p><input type="submit" ></p>
+                  </form> 
+              ' ;
+            }
+            else
+            {
+              # Handle the form submission.
+              # Empty check.
+              if ( !empty ( $_POST['comment'] ) )
+              {
+                $comment = $_POST['comment'] ;   
+                echo "Comment : $comment " ;
+              }
+              else
+              { 
+                $comment = NULL ;
+                echo 'You must enter a comment' ;
+               }
+            }
 
-		?>
+        ?>
 
-	</body>
+    </body>
 </html>

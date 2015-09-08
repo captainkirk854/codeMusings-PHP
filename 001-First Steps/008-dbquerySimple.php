@@ -16,11 +16,11 @@
 	{
 	  echo '<h1>Result Set Returned OK</h1>' ;
 	}
-	else
-	{
-	  echo '<p>' . mysqli_error( $dbConnection ) . '</p>' ;
-	}
+    else
+    {
+      echo '<p>' . mysqli_error( $dbConnection ) . '</p>' ;
+    }
 
-	# Close the connection.
-	mysqli_close( $dbConnection ) ;
+    # Close the connection.
+    mysqli_close( $dbConnection ) ;
 ?>

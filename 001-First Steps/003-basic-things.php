@@ -19,66 +19,66 @@ function Welcome($person)
 # ------------------------------
 function ListArray(
 				   $inputArray,
-				   $mode
-				  )
+	               $mode
+                  )
 {
-	if (is_array($inputArray))
-	{
-		switch ($mode)
-		{
-			case 1: 
-					foreach ($inputArray as $index => $value )
-					{
-						echo "&bull; $value <br>";
-					};
-					break;
-			case 2: 
-					foreach ($inputArray as $index => $value )
-					{
-						echo "&bull; $value ($index) <br>";
-					};
-					break;
-			default: 
-					foreach ($inputArray as $index => $value )
-					{
-						echo "$value ($index) <br>";
-					};
-					break;
-			
-		}
-	}
+    if (is_array($inputArray))
+    {
+        switch ($mode)
+        {
+            case 1: 
+                    foreach ($inputArray as $index => $value )
+                    {
+                        echo "&bull; $value <br>";
+                    };
+                    break;
+            case 2: 
+                    foreach ($inputArray as $index => $value )
+                    {
+                        echo "&bull; $value ($index) <br>";
+                    };
+                    break;
+            default: 
+                    foreach ($inputArray as $index => $value )
+                    {
+                        echo "$value ($index) <br>";
+                    };
+                    break;
+            
+        }
+    }
 }
 # ------------------------------
 
 # ------------------------------
 function CSV ($inputArray)
 {
-	if (is_array($inputArray))
-	{
-	 	asort($inputArray);
-		return implode(",", $inputArray);
-	}
-	else
-	{
-		return NULL;
-	}
+    if (is_array($inputArray))
+    {
+         asort($inputArray);
+        return implode(",", $inputArray);
+    }
+    else
+    {
+        return NULL;
+    }
 }
 # ------------------------------
 
 # ------------------------------
 function LoopMe ($inputArray)
 {
-	if (is_array($inputArray))
-	{
-		for ($i = 0; $i < count($inputArray); $i++)
-		{
-			echo "<dt> $inputArray[$i] <br>";
-		}
-	}
-	else
-	{
-		return NULL;
-	}
+    if (is_array($inputArray))
+    {
+        for ($i = 0; $i < count($inputArray); $i++)
+        {
+            echo "<dt> $inputArray[$i] <br>";
+        }
+    }
+    else
+    {
+        return NULL;
+    }
 }
 # ------------------------------
 

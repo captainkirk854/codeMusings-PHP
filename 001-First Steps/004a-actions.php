@@ -10,24 +10,24 @@
 ?>
 
 <html>
-	<body>
-		<form action = "004b-actions-handler.php" method = "POST">
+    <body>
+        <form action = "004b-actions-handler.php" method = "POST">
 
-			<dl>
-				<dt> Name:
-					<dd> <input type = "text" name = "inputName">
+            <dl>
+                <dt> Name:
+                    <dd> <input type = "text" name = "inputName">
 
-				<dt> Email Address:
-					<dd> <input type = "text" name = "inputMail">
+                <dt> Email Address:
+                    <dd> <input type = "text" name = "inputMail">
 
-				<dt> Any Comments:
-					<dd> <textarea rows="5" cols="50" name = "inputComments"> </textarea>
-				
-				<input type = "hidden" name = "myHiddenVariableThatNoOneCanSee" value = " <?php echo $currentTime ?> " <!-- How to pass a $variable -->
-			</dl>
+                <dt> Any Comments:
+                    <dd> <textarea rows="5" cols="50" name = "inputComments"> </textarea>
+                
+                <input type = "hidden" name = "myHiddenVariableThatNoOneCanSee" value = " <?php echo $currentTime ?> " <!-- How to pass a $variable -->
+            </dl>
 
-			<p> <input type = "submit"> </p>
+            <p> <input type = "submit"> </p>
 
-		</form>
-	</body>
+        </form>
+    </body>
 </html>
