@@ -1,11 +1,11 @@
 <?php
-	class RemoteConnect
-	{
-	  public function ConnectToServer($serverName = null)
-	  {
-	    if($serverName==null)
-		{
-	      throw new Exception("That is not a server name!");
+    class RemoteConnect
+    {
+      public function ConnectToServer($serverName = null)
+      {
+        if($serverName==null)
+        {
+          throw new Exception("That is not a server name!");
         }
         
         # Open socket to server ..

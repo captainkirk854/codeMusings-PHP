@@ -7,19 +7,19 @@
 # ------------------------------
 function Welcome($person)
 {
-	date_default_timezone_set("UTC");
-	$hour = date("H");
-	$greeting = ($hour < 12) ? "<br> Good Morning " : "<br> Good Day ";
-	$greeting .= $person;
-	
-	return $greeting .= "<br><br>"; 
+    date_default_timezone_set("UTC");
+    $hour = date("H");
+    $greeting = ($hour < 12) ? "<br> Good Morning " : "<br> Good Day ";
+    $greeting .= $person;
+    
+    return $greeting .= "<br><br>"; 
 }
 # ------------------------------
 
 # ------------------------------
 function ListArray(
-				   $inputArray,
-	               $mode
+                   $inputArray,
+                   $mode
                   )
 {
     if (is_array($inputArray))

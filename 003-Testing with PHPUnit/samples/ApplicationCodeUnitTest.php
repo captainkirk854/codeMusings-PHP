@@ -1,10 +1,10 @@
 <?php
-	/*
-		Can be run from command line: 
-			> phpunit ApplicationCodeUnitTest.php
-			> phpunit ApplicationCodeUnitTest
-			> phpunit <Specific ClassName> ApplicationCodeUnitTest.php 
-				(e.g. phpunit MoneyTest ApplicationCodeUnitTest.php)
+    /*
+        Can be run from command line: 
+            > phpunit ApplicationCodeUnitTest.php
+            > phpunit ApplicationCodeUnitTest
+            > phpunit <Specific ClassName> ApplicationCodeUnitTest.php 
+                (e.g. phpunit MoneyTest ApplicationCodeUnitTest.php)
         
         Common Assertions (Helper functions) available:
             o AssertTrue

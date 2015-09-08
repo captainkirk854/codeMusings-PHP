@@ -1,16 +1,16 @@
 <?php
 
-	function CheckEmail ($emailAddress)
-	{
-		$regexpPatternEmail = "/\b[\w.-]+@[\w.-]+\.[A-za-z]{2,6}\b/";
-		
-		if (!preg_match ($regexpPatternEmail, $emailAddress))
-		{
-			$emailAddress = "NOT EVEN A VALID EMAIL!!";
-		}
-		
-		return $emailAddress;
-	}
+    function CheckEmail ($emailAddress)
+    {
+        $regexpPatternEmail = "/\b[\w.-]+@[\w.-]+\.[A-za-z]{2,6}\b/";
+        
+        if (!preg_match ($regexpPatternEmail, $emailAddress))
+        {
+            $emailAddress = "NOT EVEN A VALID EMAIL!!";
+        }
+        
+        return $emailAddress;
+    }
 
 
     # Receive variables from super global POST array which is treated as a hash table where the variables posted are treated as keys..

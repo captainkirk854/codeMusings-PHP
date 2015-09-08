@@ -1,17 +1,17 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>PHP Single Form & Response</title>
+    <meta charset="UTF-8">
+    <title>PHP Single Form & Response</title>
 </head>
-	<body>
+    <body>
 
-		<?php
+        <?php
 
-			if ( $_SERVER[ 'REQUEST_METHOD' ] != 'POST' ) 
-			{
-			  # Display the form - note action has to reference this .php file
-	          echo '
+            if ( $_SERVER[ 'REQUEST_METHOD' ] != 'POST' ) 
+            {
+              # Display the form - note action has to reference this .php file
+              echo '
                   <form action="004c-actionsAndHandlerTogether.php" method="POST">
                       <fieldset>
                           <legend>Send us your comments</legend>

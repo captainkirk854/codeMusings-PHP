@@ -1,23 +1,23 @@
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>PHP Link Data</title>
-	</head>
-	<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>PHP Link Data</title>
+    </head>
+    <body>
 
-		<?php
+        <?php
 
-			# Handle the submitted link data.
-			if ( isset( $_GET['linkID'] ) ) 
-			{
-			  $linkID = $_GET['linkID'] ;
-			  
-			  switch( $linkID )
-			  {
-			    case 1 : echo 'Cow selected<hr>' ; break ;
-			    case 2 : echo 'Dog selected<hr>' ; break ;
-		        case 3 : echo 'Goat selected<hr>' ; break ;
+            # Handle the submitted link data.
+            if ( isset( $_GET['linkID'] ) ) 
+            {
+              $linkID = $_GET['linkID'] ;
+              
+              switch( $linkID )
+              {
+                case 1 : echo 'Cow selected<hr>' ; break ;
+                case 2 : echo 'Dog selected<hr>' ; break ;
+                case 3 : echo 'Goat selected<hr>' ; break ;
               }
             }
 

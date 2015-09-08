@@ -1,12 +1,12 @@
 <!-- 
-	This is just a regular html page which references another php via the action/post method
+    This is just a regular html page which references another php via the action/post method
 -->
 
 
 <?php
-	# There's a little bit of PHP here to set a time $variable ..
-	date_default_timezone_set("UTC");
-	$currentTime = date ("H:i-Fj");
+    # There's a little bit of PHP here to set a time $variable ..
+    date_default_timezone_set("UTC");
+    $currentTime = date ("H:i-Fj");
 ?>
 
 <html>

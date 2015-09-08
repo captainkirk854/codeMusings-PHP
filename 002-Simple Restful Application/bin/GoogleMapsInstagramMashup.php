@@ -1,14 +1,14 @@
 <?php
-	# PHP sections contain functions and application logic ...
-	
-	#------------------------------------------------------------------------------
-	# Functions
-	#------------------------------------------------------------------------------
+    # PHP sections contain functions and application logic ...
+    
+    #------------------------------------------------------------------------------
+    # Functions
+    #------------------------------------------------------------------------------
 
-	#------------------------------------------------------------------------------
-	function APIGoogleMaps_Access($location)
-	{
-		/*
+    #------------------------------------------------------------------------------
+    function APIGoogleMaps_Access($location)
+    {
+        /*
         GoogleMaps API endpoint format:
             https://maps.googleapis.com
                    /maps

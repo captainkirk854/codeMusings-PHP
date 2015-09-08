@@ -1,18 +1,18 @@
 <!DOCTYPE HTML>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>PHP Sticky Form</title>
-	</head>
-	<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>PHP Sticky Form</title>
+    </head>
+    <body>
 
-		<?php 
+        <?php 
 
-			# Check form submitted.
-			if ( $_SERVER[ 'REQUEST_METHOD' ] == 'POST' )
-			{
-			  # Initialize an error array.
-			  $errors = array();
+            # Check form submitted.
+            if ( $_SERVER[ 'REQUEST_METHOD' ] == 'POST' )
+            {
+              # Initialize an error array.
+              $errors = array();
 
               # Check for a name & email address.
               if (empty( $_POST[ 'name' ]))  
